@@ -1,0 +1,53 @@
+{
+  "projectId": "7df2340b-e397-4c18-ab18-6cbd77e89689",
+  "pkg": "moonslip-ui",
+  "globalName": "MoonSlipUI",
+  "shape": "package",
+  "buildCmd": "npm run build",
+  "cssEntry": "dist/moonslip.css",
+  "docsDir": ".design-sync/groups",
+  "provider": {
+    "component": "MoonSlipRoot",
+    "props": {
+      "fullHeight": false,
+      "style": {
+        "padding": "32px"
+      }
+    }
+  },
+  "overrides": {
+    "Sidebar": {
+      "cardMode": "single",
+      "viewport": "480x860"
+    },
+    "FloatingNav": {
+      "cardMode": "column"
+    },
+    "DataTable": {
+      "cardMode": "column"
+    },
+    "StatGrid": {
+      "cardMode": "column"
+    },
+    "Panel": {
+      "cardMode": "column"
+    },
+    "Container": {
+      "cardMode": "column"
+    },
+    "Wordmark": {
+      "cardMode": "column"
+    },
+    "Dialog": {
+      "cardMode": "single",
+      "viewport": "900x640"
+    },
+    "Readout": {
+      "cardMode": "column"
+    },
+    "Heading": {
+      "cardMode": "column"
+    }
+  },
+  "readmeHeader": ".design-sync/conventions.md"
+}
